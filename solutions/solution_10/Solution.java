@@ -1,4 +1,4 @@
-package solution_10;
+package solutions.solution_10;
 
 import java.util.Dictionary;
 import java.util.Hashtable;

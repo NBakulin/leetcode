@@ -1,4 +1,4 @@
-package solution_86;
+package solutions.solution_86;
 
 /**
  * Definition for singly-linked list.

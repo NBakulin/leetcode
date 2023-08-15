@@ -1,4 +1,4 @@
-package solution_2369;
+package solutions.solution_2369;
 
 import java.util.*;
 
