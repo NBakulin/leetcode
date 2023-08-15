@@ -15,7 +15,7 @@ class Solution {
     protected boolean prefixIsValid(int i) {
         boolean answer = false;
 
-        if (i < 0 || (this.indexesStorage.get(i) != null && this.indexesStorage.get(i) == true)) {
+        if (i < 0 || (this.indexesStorage.get(i) != null && this.indexesStorage.get(i))) {
             return true;
         }
 
