@@ -1,52 +1,32 @@
 package solutions.solution_239;
 
-import java.util.LinkedList;
+import java.util.*;
 
 class Solution {
-
-    public LinkedList<Integer> cacheList = new LinkedList<Integer>();
-
     public int[] maxSlidingWindow(int[] nums, int k) {
-        int[] resultArray = new int[nums.length - k + 1];
+        LinkedList<Integer> queue = new LinkedList<Integer>();
+        List<Integer> res = new ArrayList<>();
 
         for (int i = 0; i < k; i++) {
-            this.cacheList.addLast(nums[i]);
+            while (!queue.isEmpty() && nums[i] >= nums[queue.getLast()]) {
+                queue.removeLast();
+            }
+            queue.addLast(i);
         }
-        this.rearrangeList();
-        resultArray[0] = this.cacheList.getFirst();
+        res.add(nums[queue.getFirst()]);
 
-        int counter = 1;
         for (int i = k; i < nums.length; i++) {
-            if (this.cacheList.size() >= k) {
-                this.cacheList.removeFirst();
-                if (this.cacheList.size() > 0) {
-                    this.rearrangeList();
-                }
+            if (queue.getFirst() == i - k) {
+                queue.removeFirst();
+            }
+            while (!queue.isEmpty() && nums[i] >= nums[queue.getLast()]) {
+                queue.removeLast();
             }
 
-            if (this.cacheList.size() > 0 && nums[i] >= this.cacheList.getFirst()) {
-                this.cacheList = new LinkedList<Integer>();
-                this.cacheList.addLast(nums[i]);
-            } else {
-                this.cacheList.addLast(nums[i]);
-            }
-
-            resultArray[counter++] = this.cacheList.getFirst();
+            queue.addLast(i);
+            res.add(nums[queue.getFirst()]);
         }
 
-        return resultArray;
-    }
-
-    public void rearrangeList()
-    {
-        int localMax = this.cacheList.stream().max(Integer::compare).get();
-        LinkedList<Integer> newCacheList = new LinkedList<Integer>();
-
-        while (this.cacheList.getLast() != localMax) {
-            newCacheList.addFirst(this.cacheList.getLast());
-            this.cacheList.removeLast();
-        }
-        newCacheList.addFirst(this.cacheList.getLast());
-        this.cacheList = newCacheList;
+        return res.stream().mapToInt(i->i).toArray();
     }
 }

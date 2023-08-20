@@ -1,5 +1,7 @@
 ## 239. Sliding Window Maximum
 
+### Problem Description
+
 [Link to the problem 239.](https://leetcode.com/problems/sliding-window-maximum/description/)
 
 You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.
@@ -35,3 +37,10 @@ Constraints:
 * `1 <= nums.length <= 105`
 * `-104 <= nums[i] <= 104`
 * `1 <= k <= nums.length`
+
+### Solution Properties
+
+* `SC = O(k)`
+* `TC = O(n)`
+* Runtime ~ 39 ms (`beats ~38%`)
+* Memory ~ 63 mb (`beats ~17%`)
