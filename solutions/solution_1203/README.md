@@ -1,4 +1,4 @@
-## 1203. Sort Items by Groups Respecting Dependencies
+# 1203. Sort Items by Groups Respecting Dependencies
 
 ## Problem Description
 

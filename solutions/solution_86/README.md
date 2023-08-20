@@ -1,6 +1,6 @@
-## 86. Partition List
+# 86. Partition List
 
-### Problem Description
+## Problem Description
 
 [Link to the problem 86.](https://leetcode.com/problems/partition-list/description/)
 

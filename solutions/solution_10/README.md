@@ -1,6 +1,6 @@
-## Regular Expression Matching
+# Regular Expression Matching
 
-### Problem Description
+## Problem Description
 
 [Link to the problem 10.](https://leetcode.com/problems/regular-expression-matching/description/)
 

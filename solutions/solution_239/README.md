@@ -1,6 +1,6 @@
-## 239. Sliding Window Maximum
+# 239. Sliding Window Maximum
 
-### Problem Description
+## Problem Description
 
 [Link to the problem 239.](https://leetcode.com/problems/sliding-window-maximum/description/)
 

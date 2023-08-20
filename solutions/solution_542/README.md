@@ -1,6 +1,6 @@
-## 542. 01 Matrix
+# 542. 01 Matrix
 
-### Problem Description
+## Problem Description
 
 [Link to the problem 541.](https://leetcode.com/problems/01-matrix/description/)
 

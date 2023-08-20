@@ -1,6 +1,6 @@
-## 215. Kth Largest Element in an Array
+# 215. Kth Largest Element in an Array
 
-### Problem Description
+## Problem Description
 
 [Link to the problem 215.](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
