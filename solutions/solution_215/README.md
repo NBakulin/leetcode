@@ -1,5 +1,7 @@
 ## 215. Kth Largest Element in an Array
 
+### Problem Description
+
 [Link to the problem 215.](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
 Given an integer array nums and an integer k, return the kth largest element in the array.
@@ -26,3 +28,10 @@ Constraints:
 
 1 <= k <= nums.length <= 105
 -104 <= nums[i] <= 104
+
+### Solution Properties
+
+* `SC = O(n)`
+* `TC = O(n)`
+* Runtime ~ 58 ms (`beats ~26%`)
+* Memory ~ 54.3 mb (`beats ~72%`)

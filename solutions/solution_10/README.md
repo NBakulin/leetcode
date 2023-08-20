@@ -1,7 +1,10 @@
-## Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where:
+## Regular Expression Matching
+
+### Problem Description
 
 [Link to the problem 10.](https://leetcode.com/problems/regular-expression-matching/description/)
 
+Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where:
 * `'.'` Matches any single character.
 * `'*'` Matches zero or more of the preceding element.
 The matching should cover the entire input string (not partial).
@@ -37,3 +40,10 @@ Constraints:
 * `s` contains only lowercase English letters.
 * `p` contains only lowercase English letters, `'.'`, and `'*'`.
 * It is guaranteed for each appearance of the character `'*'`, there will be a previous valid character to match.
+
+### Solution Properties
+
+* `SC = O(n)`
+* `TC = O(n)`
+* Runtime ~ 267 ms (`beats ~28%`)
+* Memory ~ 44.2 mb (`beats ~6%`)

@@ -1,6 +1,6 @@
 ## 542. 01 Matrix
 
-### Description
+### Problem Description
 
 [Link to the problem 541.](https://leetcode.com/problems/01-matrix/description/)
 
@@ -52,5 +52,5 @@ Constraints:
 ### Solution Properties
 * `SC = O(n)`
 * `TC = O(n)`
-* Runtime ~ 6ms (`beats ~95%`)
+* Runtime ~ 6 ms (`beats ~95%`)
 * Memory ~ 45.9 mb (`beats ~41.5%`)

@@ -1,5 +1,7 @@
 ## 2369. Check if There is a Valid Partition For The Array
 
+### Problem Description
+
 [Link to the problem 2369.](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)
       
 You are given a 0-indexed integer array nums. You have to partition the array into one or more contiguous subarrays.
@@ -33,3 +35,9 @@ Constraints:
 
 2 <= nums.length <= 105
 1 <= nums[i] <= 106
+
+### Solution Properties
+* `SC = O(n)`
+* `TC = O(n)`
+* Runtime ~ 10 ms (`beats ~36%`)
+* Memory ~ 57 mb (`beats ~46%`)
