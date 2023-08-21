@@ -46,3 +46,9 @@ Constraints:
 * `0 <= ai, bi <= n-1`
 * `ai != bi`
 * Each pair of cities has at most one road connecting them.
+
+## Solution Properties
+* `SC = O(r)` (`r` stands for roads `size`)
+* `TC = O(r^2)` (`r` stands for roads `size`)
+* Runtime ~ 54 ms (`beats ~7%`)
+* Memory ~ 43.6 mb (`beats ~88%`)

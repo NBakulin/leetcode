@@ -6,35 +6,31 @@ class Solution {
     public int maximalNetworkRank(int n, int[][] roads) {
         Map<Integer, List<Integer>> cityConnections = new HashMap<>();
         Map<String, Boolean> checkedConnections = new HashMap<>();
-        
-        for (int i = 0; i < roads.length; i++) {
-            int[] road = roads[i];
-            for (int j = 0; j < 2; j++) {
-                if (cityConnections.get(road[j]) == null) {
-                    cityConnections.put(road[j], new ArrayList<>(List.of(road[1 - j])));
-                } else {
-                    List<Integer> cityOneConnections = cityConnections.get(road[j]);
-                    cityOneConnections.add(road[1-j]);
-                    cityConnections.put(road[j], cityOneConnections);
-                }
-            }
+
+        for (int[] road : roads) {
+            cityConnections.computeIfAbsent(road[0], k -> new ArrayList<>()).add(road[1]);
+            cityConnections.computeIfAbsent(road[1], k -> new ArrayList<>()).add(road[0]);
         }
-        
+
         int maxRank = 0;
 
-        for (Map.Entry<Integer, List<Integer>> entry : cityConnections.entrySet()) {
-            Integer city = entry.getKey();
-            List<Integer> connections = entry.getValue();
-            for (int i = 0; i < connections.size(); i++) {
-                Integer connectedCity = connections.get(i);
-                if (checkedConnections.get(city + "_" + connectedCity) != null || checkedConnections.get(city + "_" + connectedCity) != null) {
+        for (Map.Entry<Integer, List<Integer>> firstCityEntry : cityConnections.entrySet()) {
+            Integer firstCity = firstCityEntry.getKey();
+            int firstCityRank = firstCityEntry.getValue().size();
+
+            for (Map.Entry<Integer, List<Integer>> secondCityEntry : cityConnections.entrySet()) {
+                Integer secondCity = secondCityEntry.getKey();
+                int secondCityRank = secondCityEntry.getValue().size();
+
+                if (firstCity.equals(secondCity)) {
                     continue;
                 }
-                int rank = cityConnections.get(city).size() + cityConnections.get(connectedCity).size() - 1;
-                checkedConnections.put(city + "_" + connectedCity, true);
-                if (rank > maxRank) {
-                    maxRank = rank;
+
+                int rank = firstCityRank + secondCityRank;
+                if (cityConnections.get(firstCity).contains(secondCity)) {
+                    rank--;
                 }
+                maxRank = Math.max(rank, maxRank);
             }
         }
 
