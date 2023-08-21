@@ -49,7 +49,7 @@ Constraints:
 * `mat[i][j]` is either `0` or `1`.
 * There is at least one `0` in `mat`.
 
-### Solution Properties
+## Solution Properties
 * `SC = O(n)`
 * `TC = O(n)`
 * Runtime ~ 6 ms (`beats ~95%`)

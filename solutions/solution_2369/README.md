@@ -36,7 +36,7 @@ Constraints:
 2 <= nums.length <= 105
 1 <= nums[i] <= 106
 
-### Solution Properties
+## Solution Properties
 * `SC = O(n)`
 * `TC = O(n)`
 * Runtime ~ 10 ms (`beats ~36%`)

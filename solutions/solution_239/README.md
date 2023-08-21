@@ -38,7 +38,7 @@ Constraints:
 * `-104 <= nums[i] <= 104`
 * `1 <= k <= nums.length`
 
-### Solution Properties
+## Solution Properties
 
 * `SC = O(k)`
 * `TC = O(n)`

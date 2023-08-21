@@ -41,7 +41,7 @@ Constraints:
 * `p` contains only lowercase English letters, `'.'`, and `'*'`.
 * It is guaranteed for each appearance of the character `'*'`, there will be a previous valid character to match.
 
-### Solution Properties
+## Solution Properties
 
 * `SC = O(n)`
 * `TC = O(n)`

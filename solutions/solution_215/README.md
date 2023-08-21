@@ -29,7 +29,7 @@ Constraints:
 1 <= k <= nums.length <= 105
 -104 <= nums[i] <= 104
 
-### Solution Properties
+## Solution Properties
 
 * `SC = O(n)`
 * `TC = O(n)`
