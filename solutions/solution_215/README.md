@@ -1,8 +1,6 @@
-# 215. Kth Largest Element in an Array
+# [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
 ## Problem Description
-
-[Link to the problem 215.](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
 Given an integer array nums and an integer k, return the kth largest element in the array.
 

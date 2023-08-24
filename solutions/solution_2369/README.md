@@ -1,8 +1,6 @@
-# 2369. Check if There is a Valid Partition For The Array
+# [2369. Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)
 
 ## Problem Description
-
-[Link to the problem 2369.](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)
       
 You are given a 0-indexed integer array nums. You have to partition the array into one or more contiguous subarrays.
 

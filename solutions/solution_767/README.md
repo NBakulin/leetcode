@@ -1,8 +1,6 @@
-# 767. Reorganize String
+# [767. Reorganize String](https://leetcode.com/problems/reorganize-string/description/)
 
 ## Problem Description
-
-[Link to the problem 767.](https://leetcode.com/problems/reorganize-string/description/)
 
 Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
 

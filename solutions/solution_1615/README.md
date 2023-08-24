@@ -1,8 +1,6 @@
-# 1615. Maximal Network Rank
+# [1615. Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)
 
 ## Problem Description
-
-[Link to the problem 1615.](https://leetcode.com/problems/maximal-network-rank/)
 
 There is an infrastructure of `n` cities with some number of `roads` connecting these cities. Each `roads[i] = [ai, bi]` indicates that there is a bidirectional road between cities `ai` and `bi`.
 

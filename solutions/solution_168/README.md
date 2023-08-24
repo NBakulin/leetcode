@@ -1,8 +1,6 @@
-# 168. Excel Sheet Column Title
+# [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
 
 ## Problem Description
-
-[Link to the problem 168.](https://leetcode.com/problems/excel-sheet-column-title/description/)
 
 Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
 

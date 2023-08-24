@@ -1,8 +1,6 @@
-# 1203. Sort Items by Groups Respecting Dependencies
+# [1203. Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)
 
 ## Problem Description
-
-[Link to the problem 1203.](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)
 
 There are `n` items each belonging to zero or one of `m` groups where `group[i]` is the group that the `i`-th item belongs to and it's equal to `-1` if the `i`-th item belongs to no group. The items and the groups are zero indexed. A group can have no item belonging to it.
 

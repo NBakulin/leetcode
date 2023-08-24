@@ -1,8 +1,6 @@
-# 86. Partition List
+# [86. Partition List](https://leetcode.com/problems/partition-list/description/)
 
 ## Problem Description
-
-[Link to the problem 86.](https://leetcode.com/problems/partition-list/description/)
 
 Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
 

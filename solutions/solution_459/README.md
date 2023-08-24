@@ -1,8 +1,6 @@
-# 459. Repeated Substring Pattern
+# [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)
 
 ## Problem Description
-
-[Link to the problem 459.](https://leetcode.com/problems/repeated-substring-pattern/description/)
 
 Given a string `s`, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
 
