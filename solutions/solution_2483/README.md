@@ -18,7 +18,7 @@ Return the **earliest** hour at which the shop must be closed to incur a **minim
 
 
 
-Example 1:
+### Example 1:
 ```
 Input: customers = "YYNY"
 Output: 2
@@ -30,20 +30,20 @@ Explanation:
 - Closing the shop at the 4th hour incurs in 0+0+1+0 = 1 penalty.
   Closing the shop at 2nd or 4th hour gives a minimum penalty. Since 2 is earlier, the optimal closing time is 2.
 ```
-Example 2:
+### Example 2:
 ```
 Input: customers = "NNNNN"
 Output: 0
 Explanation: It is best to close the shop at the 0th hour as no customers arrive.
 ```
-Example 3:
+### Example 3:
 ```
 Input: customers = "YYYY"
 Output: 4
 Explanation: It is best to close the shop at the 4th hour as customers arrive at each hour.
 ```
 
-Constraints:
+### Constraints:
 
 * `1 <= customers.length <= 105`
 * `customers` consists only of characters `'Y'` and `'N'`.

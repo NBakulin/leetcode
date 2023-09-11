@@ -6,7 +6,7 @@ Given an integer `n`, return an array `ans` of length `n + 1` such that for each
 
 
 
-Example 1:
+### Example 1:
 ```
 Input: n = 2
 Output: [0,1,1]
@@ -15,7 +15,7 @@ Explanation:
 1 --> 1
 2 --> 10
 ```
-Example 2:
+### Example 2:
 ```
 Input: n = 5
 Output: [0,1,1,2,1,2]
@@ -28,7 +28,7 @@ Explanation:
 5 --> 101
 ```
 
-Constraints:
+### Constraints:
 
 `0 <= n <= 105`
 

@@ -12,7 +12,7 @@ Return the **minimum number** of taps that should be open to water the whole gar
 
 
 
-Example 1:
+### Example 1:
 
 ![asset_1](https://assets.leetcode.com/uploads/2020/01/16/1685_example_1.png)
 ```
@@ -26,14 +26,14 @@ The tap at point 4 can cover the interval [4,4]
 The tap at point 5 can cover the interval [5,5]
 Opening Only the second tap will water the whole garden [0,5]
 ```
-Example 2:
+### Example 2:
 ```
 Input: n = 3, ranges = [0,0,0,0]
 Output: -1
 Explanation: Even if you activate all the four taps you cannot water the whole garden.
 ```
 
-Constraints:
+### Constraints:
 
 * `1 <= n <= 104`
 * `ranges.length == n + 1`

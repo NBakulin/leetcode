@@ -12,13 +12,13 @@ Return any solution if there is more than one solution and return an empty list 
 
 
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3,6],[],[],[]]
 Output: [6,3,4,1,5,2,0,7]
 ```
-Example 2:
+### Example 2:
 
 ```
 Input: n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3],[],[4],[]]

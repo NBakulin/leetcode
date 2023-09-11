@@ -8,18 +8,18 @@ Return any possible rearrangement of `s` or return `"""` if not possible.
 
 
 
-Example 1:
+### Example 1:
 ```
 Input: s = "aab"
 Output: "aba"
 ```
-Example 2:
+### Example 2:
 ```
 Input: s = "aaab"
 Output: ""
 ```
 
-Constraints:
+### Constraints:
 
 * `1 <= s.length <= 500`
 * `s` consists of lowercase English letters.

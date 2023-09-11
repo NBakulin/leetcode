@@ -13,7 +13,7 @@ Return true if the array has at least one valid partition. Otherwise, return fal
 
 
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [4,4,4,5,6]
@@ -21,7 +21,7 @@ Output: true
 Explanation: The array can be partitioned into the subarrays [4,4] and [4,5,6].
 This partition is valid, so we return true.
 ```
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [1,1,1,2]
@@ -29,7 +29,7 @@ Output: false
 Explanation: There is no valid partition for this array.
 ```
 
-Constraints:
+### Constraints:
 
 2 <= nums.length <= 105
 1 <= nums[i] <= 106

@@ -17,7 +17,7 @@ Notes:
 * Depending on your language, the queue may not be supported natively. You may simulate a queue using a list or deque (double-ended queue) as long as you use only a queue's standard operations.
 
 
-Example 1:
+### Example 1:
 ```
 Input
 ["MyStack", "push", "push", "top", "pop", "empty"]
@@ -34,7 +34,7 @@ myStack.pop(); // return 2
 myStack.empty(); // return False
 ```
 
-Constraints:
+### Constraints:
 
 `1 <= x <= 9`
 At most `100` calls will be made to `push`, `pop`, `top`, and `empty`.

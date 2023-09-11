@@ -8,7 +8,7 @@ The distance between two adjacent cells is 1.
 
 
 
-Example 1:
+### Example 1:
 
 ```
 Input: mat = [
@@ -23,7 +23,7 @@ Output: [
 ]
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: mat = [
@@ -38,7 +38,7 @@ Output: [
 ]
 ```
 
-Constraints:
+### Constraints:
 
 * `m == mat.length`
 * `n == mat[i].length`
