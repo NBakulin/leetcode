@@ -1,6 +1,6 @@
 # [1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)
 
-## Problem description
+## Problem Description
 
 Given `n` orders, each order consist in pickup and delivery services.
 

@@ -1,6 +1,6 @@
 # [1282. Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description)
 
-## Problem description
+## Problem Description
 
 There are `n` people that are split into some unknown number of groups. Each person is labeled with a unique ID from `0` to `n - 1`.
 
