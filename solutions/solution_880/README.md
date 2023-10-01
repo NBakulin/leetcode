@@ -44,7 +44,7 @@ The 1st letter is "a".
 
 ## Solution Properties
 
-* `SC = O(s.length())`
-* `TC = O(1)`
+* `SC = O(1)`
+* `TC = O(s.length())`
 * Runtime ~ 0 ms (`beats ~100%`)
 * Memory ~ 39,6 mb (`beats ~99%`)
