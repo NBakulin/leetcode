@@ -40,3 +40,10 @@ Output: false
 * `n == leftChild.length == rightChild.length`
 * `1 <= n <= 10^4`
 * `-1 <= leftChild[i], rightChild[i] <= n - 1`
+
+## Solution Properties
+
+* `SC = O(n)`
+* `TC = O(n)`
+* Runtime ~ 3 ms (`beats ~95,9%`)
+* Memory ~ 44,25 mb (`beats ~81,24%`)
