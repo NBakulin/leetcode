@@ -1,4 +1,4 @@
-package solutions.solution_2742;
+//package solutions.solution_2742;
 
 import java.util.Arrays;
 
@@ -22,22 +22,23 @@ class Solution {
     public int getMinCost(int currentCost, int paintedWalls, int index) {
         if (paintedWalls < 0) return currentCost;
         if (index >= n) return Integer.MAX_VALUE;
-//        if (this.dp[index][paintedWalls] > 0) return this.dp[index][paintedWalls];
+        if (this.dp[index][paintedWalls] > 0) return this.dp[index][paintedWalls];
 
         int result;
         result = this.getMinCost(
-                currentCost + this.cost[index],
-                paintedWalls - (this.time[index] + 1),
-                index + 1
+            currentCost,
+            paintedWalls,
+            index + 1
         );
 
         result = Math.min(this.getMinCost(
-                currentCost,
-                paintedWalls,
-                index + 1
+            currentCost + this.cost[index],
+            paintedWalls - (this.time[index] + 1),
+            index + 1
         ), result);
 
-//        this.dp[index][paintedWalls] = result;
+
+        this.dp[index][paintedWalls] = result;
 
         return result;
     }
